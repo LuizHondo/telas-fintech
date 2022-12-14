@@ -1,0 +1,141 @@
+:root {
+    --amarelo:#E8F000;
+    --branco:#FFFEFE;
+    --preto:#000000;
+    --laranja:#FFA000;
+    --btn-font-family:'Press Start 2P';
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+.letra_contorno{
+    color: var(--branco);
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow:
+    -3px -3px 0 #000,
+     0   -3px 0 #000,
+     3px -3px 0 #000,
+     3px  0   0 #000,
+     3px  3px 0 #000,
+     0    3px 0 #000,
+    -3px  3px 0 #000,
+    -3px  0   0 #000;
+}
+
+/* ===============INÍCIO=============== */
+
+.inicio_body{
+    font-family: 'Press Start 2P', cursive;
+    background-color: var(--amarelo);
+    font-weight: 400;
+}
+
+.inicio_logotipo{
+    text-align: center;
+    filter: drop-shadow(-10px 20px 16px rgba(0, 0, 0, 0.8));
+    margin: 11.84% auto 130px;
+    display: block;
+    max-width: 60%;
+}
+
+.inicio_botao{
+    color: var(--branco);
+    text-align: center;
+    margin-top: 25px;
+
+}
+.inicio_botao_a{
+    text-decoration: none;
+}
+.rodape_nome{
+    color: var(--branco);
+    text-align: center;
+    margin-top: 100px;
+    font-size: smaller;
+}
+
+/* ============= CADASTRO =============== */
+
+.cadastro_body{
+    font-family: 'Press Start 2P', cursive;
+    background-color: var(--amarelo);
+    margin: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.cadastro_cabecalho{
+    text-align: center;
+    padding-top: 18px;
+
+}
+
+.cadastro_requisito{
+    display: block;
+    margin: 10px 5px 2px ;
+    align-self: flex-start;
+}
+
+.cadastro_input{
+    display: block;
+    padding: 2px;
+    max-width: 400px;
+    align-self: flex-start;
+}
+.cadastrar_botao{
+    margin-top: 10px;
+}
+
+/* ===================== DESPESAS ============================ */
+
+.despesas_body{
+    font-family: 'Press Start 2P', cursive;
+    background-color: var(--branco);
+}
+
+.despesas_header{
+    display: block;
+    background-color: var(--amarelo);
+    border: 1px solid var(--preto);
+}
+
+.despesas_header p{
+    text-align: center;
+    margin: auto auto;
+    padding: 10px 10px;
+    text-shadow:
+    -2px -2px 0 #000,
+     0   -2px 0 #000,
+     2px -2px 0 #000,
+     2px  0   0 #000,
+     2px  2px 0 #000,
+     0    2px 0 #000,
+    -2px  2px 0 #000,
+    -2px  0   0 #000;
+}
+.despesas_footer{
+    position: absolute;
+    bottom: 1px;
+}
+/* Botao */
+.dropdown{
+    bottom: 1px auto;
+    display: flex;
+    
+}
+.dropdown button{
+    position: fixed;
+    bottom: 3px;
+    left: 30vw;
+    background-color: var(--amarelo);
+    font-size: 30px;
+    border-radius: 90px;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.623);
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.359);
+}
+.dropdown button:hover{
+    background-color: var(--laranja);
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.0);
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.0);
+}
